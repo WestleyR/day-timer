@@ -1,2 +1,17 @@
-# day-timer
-Simple Script to Count How Many Hours You worked for
+# Simple Timer to Log Hours per Day
+
+More info...
+
+<br>
+
+## Install:
+
+```
+git clone https://github.com/WestleyR/day-timer
+cd day-timer
+./install.sh
+source ~/.bashrc
+```
+
+
+
