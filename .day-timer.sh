@@ -13,7 +13,7 @@
 # This software is licensed under a Clear BSD License.
 #
 
-TIME_FILE=".day-timer-hour-per-day.txt"
+TIME_FILE=".hours-per-day.txt"
 
 HUR=0
 MIN=0
