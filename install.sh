@@ -32,7 +32,7 @@ ecgo -i "Checking .bashrc..."
 if [ $(cat ~/.bashrc | grep .day-timer.sh | wc -l) -eq 0 ]; then
     ecgo -i "Added somthing to .bashrc..."
     cat << EOF >> ~/.bashrc
-if [ \$(ps aux | grep hour-meter | wc -l ) -le 1 ]; then
+if [ \$(ps aux | grep .day-timer.sh | wc -l ) -le 1 ]; then
     ./.day-timer.sh &
 fi
 EOF

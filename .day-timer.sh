@@ -1,7 +1,7 @@
 #!/bin/sh
 # Created by: WestleyR
 # Email: westleyr@nym.hush.com
-# version-1.0.0
+# version-1.0.1
 # Date: Jan 20, 2018
 # https://github.com/WestleyR/day-timer
 #
@@ -13,7 +13,7 @@
 # This software is licensed under a Clear BSD License.
 #
 
-TIME_FILE="day-time-per-day.txt"
+TIME_FILE=".day-timer-hour-per-day.txt"
 
 HUR=0
 MIN=0
